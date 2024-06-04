@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11f vlog 2019.3 2019.07, Jul 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/program files/modeltech64_2019.3/examples
+T_opt
+!s110 1592340528
+VNm33UjIT^Ki2;M01_QioD2
+04 17 4 work seven_seg_decoder fast 0
+=1-0050569a8c95-5ee9302f-1aa-39e8
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.3;69
+R0
+T_opt1
+!s110 1592343423
+V>jz;:@RPj8Q>hV]e=zR;a1
+04 10 4 work lab5blocks fast 0
+=1-0050569a8c95-5ee93b7e-234-944
+R1
+R2
+n@_opt1
+R3
+vlab5blocks
+!s110 1592343409
+!i10b 1
+!s100 FB<74Nn=cn3>T:blI7NaT0
+!s11b ODc6P3_9V]F@Q3mff:@ic0
+IK2niPPRNFS`^c7l;f>12U3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dU:/CPRE281/lab05
+w1592343394
+8U:/CPRE281/lab05/lab5blocks.v
+FU:/CPRE281/lab05/lab5blocks.v
+!i122 -1
+L0 19
+Z6 OL;L;2019.3;69
+r1
+!s85 0
+31
+Z7 !s108 1592343408.000000
+!s107 U:/CPRE281/lab05/lab5blocks.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab05/lab5blocks.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vseven_seg_decoder
+!s110 1592343408
+!i10b 1
+!s100 EelAU0>DkH51CmaGWB5aV1
+!s11b z4VA32;IKAo3zWR7]___X0
+Ii_^2JCNFD`P56YB7?LcSz2
+R4
+R5
+w1592341273
+8U:/CPRE281/lab05/7segdisplay.v
+FU:/CPRE281/lab05/7segdisplay.v
+!i122 -1
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 U:/CPRE281/lab05/7segdisplay.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab05/7segdisplay.v|
+!i113 0
+R8
+R2

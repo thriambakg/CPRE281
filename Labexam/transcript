@@ -1,0 +1,305 @@
+# Compile of busmux_0.v was successful.
+# Compile of mainregister.v was successful.
+# Compile of Mux8_4b.v was successful.
+# Compile of onebitreg.v was successful.
+# Compile of ParalelReg.v was successful.
+# Compile of threetoeight.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.regfile
+# vsim -gui work.regfile 
+# Start time: 13:37:07 on Jul 09,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.regfile(fast)
+add wave -position insertpoint  \
+sim:/regfile/RP2 \
+sim:/regfile/RP1 \
+sim:/regfile/RP0 \
+sim:/regfile/RQ2 \
+sim:/regfile/RQ1 \
+sim:/regfile/RQ0 \
+sim:/regfile/WA2 \
+sim:/regfile/WA1 \
+sim:/regfile/WA0 \
+sim:/regfile/WR \
+sim:/regfile/CLRN \
+sim:/regfile/CLK \
+sim:/regfile/LD_DATA \
+sim:/regfile/DATAP3 \
+sim:/regfile/DATAP2 \
+sim:/regfile/DATAP1 \
+sim:/regfile/DATAP0 \
+sim:/regfile/DATAQ3 \
+sim:/regfile/DATAQ2 \
+sim:/regfile/DATAQ1 \
+sim:/regfile/DATAQ0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: trg1  Hostname: WINLAB-05  ProcessID: 11348
+#           Attempting to use alternate WLF file "./wlftkbzq3j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkbzq3j
+force -freeze sim:/regfile/RP2 1'hz1 0
+force -freeze sim:/regfile/RP1 1'hz1 0
+force -freeze sim:/regfile/RP0 1'hz0 0
+force -freeze sim:/regfile/RQ2 1'hz1 0
+force -freeze sim:/regfile/RQ1 1'hz0 0
+force -freeze sim:/regfile/RQ0 1'hz1 0
+force -freeze sim:/regfile/WA2 1'hz1 0
+force -freeze sim:/regfile/WA1 1'hz0 0
+force -freeze sim:/regfile/WA0 1'hz1 0
+force -freeze sim:/regfile/WR 1'hz1 0
+force -freeze sim:/regfile/CLRN 1'hz1 0
+force -freeze sim:/regfile/CLK 1 0, 0 {25 ns} -r 50
+force -freeze sim:/regfile/LD_DATA 4'hz7 0
+run 100
+quit -sim
+# End time: 13:45:56 on Jul 09,2020, Elapsed time: 0:08:49
+# Errors: 1, Warnings: 2
+vsim -gui work.onebitreg
+# vsim -gui work.onebitreg 
+# Start time: 13:46:30 on Jul 09,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.onebitreg(fast)
+add wave -position insertpoint  \
+sim:/onebitreg/CLk \
+sim:/onebitreg/CLRN \
+sim:/onebitreg/LOAD \
+sim:/onebitreg/In \
+sim:/onebitreg/OUT
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: trg1  Hostname: WINLAB-05  ProcessID: 11348
+#           Attempting to use alternate WLF file "./wlftq7cv33".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq7cv33
+force -freeze sim:/onebitreg/CLk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/onebitreg/CLRN 1'hz1 0
+force -freeze sim:/onebitreg/LOAD 1'hz1 0
+force -freeze sim:/onebitreg/In 1'hz1 0
+run 100
+quit -sim
+# End time: 13:58:44 on Jul 09,2020, Elapsed time: 0:12:14
+# Errors: 1, Warnings: 2
+# Compile of busmux_0.v was successful.
+# Compile of mainregister.v was successful.
+# Compile of Mux8_4b.v was successful.
+# Compile of onebitreg.v was successful.
+# Compile of ParalelReg.v was successful.
+# Compile of threetoeight.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.onebitreg
+# vsim -gui work.onebitreg 
+# Start time: 13:59:26 on Jul 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.onebitreg(fast)
+add wave -position insertpoint  \
+sim:/onebitreg/CLk \
+sim:/onebitreg/CLRN \
+sim:/onebitreg/LOAD \
+sim:/onebitreg/In \
+sim:/onebitreg/OUT
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: trg1  Hostname: WINLAB-05  ProcessID: 11348
+#           Attempting to use alternate WLF file "./wlftf8twsb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf8twsb
+force -freeze sim:/onebitreg/CLk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/onebitreg/CLRN 1'hz1 0
+force -freeze sim:/onebitreg/LOAD 1'hz1 0
+force -freeze sim:/onebitreg/In 1'hz1 0
+run 100
+force -freeze sim:/onebitreg/LOAD 1'h10 0
+force -freeze sim:/onebitreg/In 1'h10 0
+run 100
+force -freeze sim:/onebitreg/In 1'h01 0
+run 100
+force -freeze sim:/onebitreg/CLRN 1'h10 0
+run 100
+force -freeze sim:/onebitreg/CLRN 1'h01 0
+run 100
+force -freeze sim:/onebitreg/LOAD 1'h01 0
+run 100
+force -freeze sim:/onebitreg/In 1'h10 0
+run 100
+force -freeze sim:/onebitreg/LOAD 1'h10 0
+force -freeze sim:/onebitreg/In 1'h01 0
+run 100
+force -freeze sim:/onebitreg/LOAD 1'h01 0
+force -freeze sim:/onebitreg/CLRN 1'h10 0
+noforce sim:/onebitreg/CLRN
+force -freeze sim:/onebitreg/CLRN 1'h01 0
+run 100
+force -freeze sim:/onebitreg/CLRN 1'h10 0
+run 100
+quit 0sim
+# unknown switch: 0sim
+quit -sim
+# End time: 14:02:57 on Jul 09,2020, Elapsed time: 0:03:31
+# Errors: 1, Warnings: 2
+vsim -gui work.regfile
+# vsim -gui work.regfile 
+# Start time: 14:03:11 on Jul 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.regfile(fast)
+add wave -position insertpoint  \
+sim:/regfile/RP2 \
+sim:/regfile/RP1 \
+sim:/regfile/RP0 \
+sim:/regfile/RQ2 \
+sim:/regfile/RQ1 \
+sim:/regfile/RQ0 \
+sim:/regfile/WA2 \
+sim:/regfile/WA1 \
+sim:/regfile/WA0 \
+sim:/regfile/WR \
+sim:/regfile/CLRN \
+sim:/regfile/CLK \
+sim:/regfile/LD_DATA \
+sim:/regfile/DATAP3 \
+sim:/regfile/DATAP2 \
+sim:/regfile/DATAP1 \
+sim:/regfile/DATAP0 \
+sim:/regfile/DATAQ3 \
+sim:/regfile/DATAQ2 \
+sim:/regfile/DATAQ1 \
+sim:/regfile/DATAQ0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: trg1  Hostname: WINLAB-05  ProcessID: 11348
+#           Attempting to use alternate WLF file "./wlft1gnyd1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1gnyd1
+force -freeze sim:/regfile/RP2 1'hz1 0
+force -freeze sim:/regfile/RP1 1'hz1 0
+force -freeze sim:/regfile/RP0 1'hz1 0
+force -freeze sim:/regfile/RQ2 1'hz0 0
+force -freeze sim:/regfile/RQ1 1'hz1 0
+force -freeze sim:/regfile/RQ0 1'hz1 0
+force -freeze sim:/regfile/WA2 1'hz0 0
+force -freeze sim:/regfile/WA1 1'hz1 0
+force -freeze sim:/regfile/WA0 1'hz1 0
+force -freeze sim:/regfile/WR 1'hz1 0
+force -freeze sim:/regfile/CLRN 1'hz1 0
+force -freeze sim:/regfile/CLK 1 0, 0 {50 ns} -r 100
+force -freeze sim:/regfile/LD_DATA 4'hz7 0
+run 100
+run 100
+run 100
+force -freeze sim:/regfile/LD_DATA 4'h73 0
+run 100
+force -freeze sim:/regfile/WA2 1'h01 0
+run 100
+force -freeze sim:/regfile/WR 1'h0 0
+run 100
+force -freeze sim:/regfile/WR 1'h1 0
+force -freeze sim:/regfile/CLRN 1'h0 0
+run 100
+quit -sim
+# End time: 14:08:41 on Jul 09,2020, Elapsed time: 0:05:30
+# Errors: 3, Warnings: 2
+# Compile of busmux_0.v was successful.
+# Compile of mainregister.v was successful.
+# Compile of Mux8_4b.v was successful.
+# Compile of onebitreg.v was successful.
+# Compile of ParalelReg.v was successful.
+# Compile of threetoeight.v was successful.
+# Compile of Final.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.Final
+# vsim -gui work.Final 
+# Start time: 14:09:18 on Jul 09,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.Final(fast)
+add wave -position insertpoint  \
+sim:/Final/CTRL \
+sim:/Final/WR \
+sim:/Final/CLK \
+sim:/Final/CLRN \
+sim:/Final/RP2 \
+sim:/Final/RP1 \
+sim:/Final/RP0 \
+sim:/Final/RQ2 \
+sim:/Final/RQ1 \
+sim:/Final/RQ0 \
+sim:/Final/WA2 \
+sim:/Final/WA1 \
+sim:/Final/WA0 \
+sim:/Final/LD_DATA \
+sim:/Final/COUT \
+sim:/Final/P \
+sim:/Final/Q
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: trg1  Hostname: WINLAB-05  ProcessID: 11348
+#           Attempting to use alternate WLF file "./wlftfjsnsy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftfjsnsy
+force -freeze sim:/Final/RP2 1'hz1 0
+force -freeze sim:/Final/RP1 1'hz1 0
+force -freeze sim:/Final/RP0 1'hz0 0
+force -freeze sim:/Final/RQ2 1'hz0 0
+force -freeze sim:/Final/RQ1 1'hz1 0
+force -freeze sim:/Final/RQ0 1'hz0 0
+force -freeze sim:/Final/WA2 1'hz0 0
+force -freeze sim:/Final/WA1 1'hz1 0
+force -freeze sim:/Final/WA0 1'hz0 0
+force -freeze sim:/Final/LD_DATA 4'hz5 0
+force -freeze sim:/Final/CTRL 1'hz1 0
+force -freeze sim:/Final/WR 1'hz1 0
+force -freeze sim:/Final/CLRN 1'hz1 0
+force -freeze sim:/Final/CLK 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+quit -sim
+# End time: 14:13:02 on Jul 09,2020, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 2
+vsim -gui work.regfile
+# vsim -gui work.regfile 
+# Start time: 14:13:12 on Jul 09,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.regfile(fast)
+add wave -position insertpoint  \
+sim:/regfile/RP2 \
+sim:/regfile/RP1 \
+sim:/regfile/RP0 \
+sim:/regfile/RQ2 \
+sim:/regfile/RQ1 \
+sim:/regfile/RQ0 \
+sim:/regfile/WA2 \
+sim:/regfile/WA1 \
+sim:/regfile/WA0 \
+sim:/regfile/WR \
+sim:/regfile/CLRN \
+sim:/regfile/CLK \
+sim:/regfile/LD_DATA \
+sim:/regfile/DATAP3 \
+sim:/regfile/DATAP2 \
+sim:/regfile/DATAP1 \
+sim:/regfile/DATAP0 \
+sim:/regfile/DATAQ3 \
+sim:/regfile/DATAQ2 \
+sim:/regfile/DATAQ1 \
+sim:/regfile/DATAQ0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: trg1  Hostname: WINLAB-05  ProcessID: 11348
+#           Attempting to use alternate WLF file "./wlft9c2cwm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9c2cwm
+force -freeze sim:/regfile/RP2 1'hz1 0
+force -freeze sim:/regfile/RP1 1'hz0 0
+force -freeze sim:/regfile/RP0 1'hz1 0
+force -freeze sim:/regfile/RQ2 1'hz1 0
+force -freeze sim:/regfile/RQ1 1'hz1 0
+force -freeze sim:/regfile/RQ0 1'hz0 0
+force -freeze sim:/regfile/WA2 1'hz1 0
+force -freeze sim:/regfile/WA1 1'hz0 0
+force -freeze sim:/regfile/WA0 1'hz1 0
+force -freeze sim:/regfile/WR 1'hz1 0
+force -freeze sim:/regfile/CLRN 1'hz1 0
+force -freeze sim:/regfile/CLK 1 0, 0 {50 ns} -r 100
+force -freeze sim:/regfile/LD_DATA 4'hz6 0
+run 100
+force -freeze sim:/regfile/WA2 1'h11 0
+force -freeze sim:/regfile/WA1 1'h01 0
+force -freeze sim:/regfile/WA0 1'h10 0
+run 100
+force -freeze sim:/regfile/CLRN 1'h10 0
+run 100
+# End time: 14:55:50 on Jul 09,2020, Elapsed time: 0:42:38
+# Errors: 5, Warnings: 2

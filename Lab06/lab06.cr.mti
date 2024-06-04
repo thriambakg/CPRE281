@@ -1,0 +1,36 @@
+U:/CPRE281/Lab06/full_adder.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/full_adder.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} U:/CPRE281/Lab06/adder_4bit.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/adder_4bit.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module adder_4bit
+
+Top level modules:
+	adder_4bit
+
+} {} {}} U:/CPRE281/Lab06/bcdconvert.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/bcdconvert.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module bcdconvert
+
+Top level modules:
+	bcdconvert
+
+} {} {}} U:/CPRE281/Lab06/7segdisplay.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/7segdisplay.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} U:/CPRE281/Lab06/lab06.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/lab06.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module lab06
+
+Top level modules:
+	lab06
+
+} {} {}}

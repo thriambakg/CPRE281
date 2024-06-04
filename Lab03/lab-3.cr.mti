@@ -1,0 +1,25 @@
+U:/CPRE281/Lab03/lab3step3.v {2 {vlog -work work -vopt -stats=none U:/CPRE281/Lab03/lab3step3.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module farmer_problem
+** Warning: U:/CPRE281/Lab03/lab3step3.v(14): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	farmer_problem
+
+} {} {}} U:/CPRE281/Lab03/lab3step1.v {2 {vlog -work work -vopt -stats=none U:/CPRE281/Lab03/lab3step1.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module farmer_problem
+** Warning: U:/CPRE281/Lab03/lab3step1.v(14): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	farmer_problem
+
+} {} {}} U:/CPRE281/Lab03/lab3step2.v {2 {vlog -work work -vopt -stats=none U:/CPRE281/Lab03/lab3step2.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module farmer_problem
+** Warning: U:/CPRE281/Lab03/lab3step2.v(13): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	farmer_problem
+
+} {} {}}

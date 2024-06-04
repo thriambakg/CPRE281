@@ -1,0 +1,8 @@
+module farmer_problem(c,w,g,a);
+	input (c,w,g);
+	output (a)
+	
+	and(a,w,g);
+	and(a,c,g);
+	
+endmodule;

@@ -1,0 +1,14 @@
+# Compile of lab1step1.v was successful.
+# Compile of lab1step2.v was successful.
+# Compile of lab1step3.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab1step1
+# vsim -gui work.lab1step1 
+# Start time: 16:13:10 on May 26,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab1step1(fast)
+force -freeze sim:/lab1step1/A 0'hz 0
+# Invalid (0-size) sized constant.
+# ** Error: (vsim-4011) Invalid force value: 0'hz 0.
+# 
+force -freeze sim:/lab1step1/A 0 0

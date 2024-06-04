@@ -1,0 +1,44 @@
+m255
+K4
+z2
+!s11f vlog 2019.3 2019.07, Jul 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/program files/modeltech64_2019.3/examples
+T_opt
+!s110 1593371871
+Vc7f<<a9@lSJ@oed5B[]<a2
+04 2 4 work FA fast 0
+=1-0050569a7016-5ef8ecde-f4-3edc
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2019.3;69
+vFA
+!s110 1593371854
+!i10b 1
+!s100 CdZ]8SR]OBcGRC7UmL?Tn2
+!s11b QMo2f_<lWkGL6F[Lo0Ud10
+I9_DKzRM=8CHMA?:61kE<93
+VDg1SIo80bB@j0V0VzS_@n1
+dU:/CPRE281/lab07
+w1593371839
+8U:/CPRE281/lab07/lab07.v
+FU:/CPRE281/lab07/lab07.v
+!i122 -1
+L0 1
+OL;L;2019.3;69
+r1
+!s85 0
+31
+!s108 1593371853.000000
+!s107 U:/CPRE281/lab07/lab07.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab07/lab07.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@f@a

@@ -1,0 +1,24 @@
+U:/CPRE281/MiniAssignment1/Block1.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/MiniAssignment1/Block1.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Block1
+
+Top level modules:
+	Block1
+
+} {} {}} U:/CPRE281/MiniAssignment1/7.0.v {2 {vlog -work work -vopt -stats=none U:/CPRE281/MiniAssignment1/7.0.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module uncle_bob_revised
+** Warning: U:/CPRE281/MiniAssignment1/7.0.v(13): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	uncle_bob_revised
+
+} {} {}} U:/CPRE281/MiniAssignment1/5.0.v {2 {vlog -work work -vopt -stats=none U:/CPRE281/MiniAssignment1/5.0.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module uncle_bob_original
+** Warning: U:/CPRE281/MiniAssignment1/5.0.v(20): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+Top level modules:
+	uncle_bob_original
+
+} {} {}}

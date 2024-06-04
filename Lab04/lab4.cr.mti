@@ -1,0 +1,29 @@
+U:/CPRE281/Lab04(2)/Normal.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab04(2)/Normal.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Normal
+
+Top level modules:
+	Normal
+
+} {} {}} U:/CPRE281/Lab04(2)/Powersaving.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab04(2)/Powersaving.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Powersaving
+
+Top level modules:
+	Powersaving
+
+} {} {}} U:/CPRE281/Lab04(2)/diagram.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab04(2)/diagram.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module diagram
+
+Top level modules:
+	diagram
+
+} {} {}} U:/CPRE281/Lab04(2)/Modes.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab04(2)/Modes.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Modes
+
+Top level modules:
+	Modes
+
+} {} {}}

@@ -1,0 +1,9 @@
+module regfile(DATAP3, DATAP2, DATAP1, DATAP0, DATAQ3, DATAQ2, DATAQ1, DATAQ0, RP2, RP1, RP0, RQ2, RQ1, RQ0, WA2, WA1, WA0, LD_DATA,WR, CLRN, CLK);
+// address and control ports
+input RP2, RP1, RP0, RQ2, RQ1, RQ0, WA2, WA1, WA0, WR, CLRN, CLK;
+// input data port
+input [3:0] LD_DATA;
+// output data ports
+output DATAP3, DATAP2, DATAP1, DATAP0, DATAQ3, DATAQ2, DATAQ1, DATAQ0;
+// wire declarations
+wire [3:0] DATAP, DATAQ;

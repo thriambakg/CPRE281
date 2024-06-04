@@ -1,0 +1,13 @@
+module uncle_bob_revised(w,x,y,z,out);
+input w,x,y,z;
+output out;
+
+and(check1,~w,~x,y,~z);
+and(check2,~w,~x,y,z);
+and(check3,~w,x,~y,z);
+and(check4,~w,x,y,z);
+and(check5,w,~x,y,z);
+and(check6,w,x,~y,z);
+or(out,check1,check2,check3,check4,check5,check6);
+
+endmodule;

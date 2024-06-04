@@ -1,0 +1,78 @@
+U:/CPRE281/Labexam/Fulladder.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/Fulladder.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module fourbit_fulladder
+
+Top level modules:
+	fourbit_fulladder
+
+} {} {}} U:/CPRE281/Labexam/busmux_1.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/busmux_1.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module busmux_1
+
+Top level modules:
+	busmux_1
+
+} {} {}} U:/CPRE281/Labexam/busmux_2.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/busmux_2.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module busmux_2
+
+Top level modules:
+	busmux_2
+
+} {} {}} U:/CPRE281/Labexam/busmux_3.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/busmux_3.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module busmux_3
+
+Top level modules:
+	busmux_3
+
+} {} {}} U:/CPRE281/Labexam/onebitreg.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/onebitreg.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module onebitreg
+
+Top level modules:
+	onebitreg
+
+} {} {}} U:/CPRE281/Labexam/FullAdder_m.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/FullAdder_m.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module FullAdder_m
+
+Top level modules:
+	FullAdder_m
+
+} {} {}} U:/CPRE281/Lab06/7segdisplay.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/7segdisplay.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} U:/CPRE281/Labexam/mainregister.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/mainregister.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} U:/CPRE281/Labexam/threetoeight.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/threetoeight.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Decoder3to8
+
+Top level modules:
+	Decoder3to8
+
+} {} {}} U:/CPRE281/Labexam/ParalelReg.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/ParalelReg.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module ParalelReg
+
+Top level modules:
+	ParalelReg
+
+} {} {}} U:/CPRE281/Labexam/Mux8_4b.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Labexam/Mux8_4b.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Mux8_4b
+
+Top level modules:
+	Mux8_4b
+
+} {} {}}

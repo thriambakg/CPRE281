@@ -1,0 +1,15 @@
+U:/CPRE281/lab08/mux4to1.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab08/mux4to1.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} U:/CPRE281/lab08/lab08.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab08/lab08.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module lab08
+
+Top level modules:
+	lab08
+
+} {} {}}

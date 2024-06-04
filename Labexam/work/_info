@@ -1,0 +1,368 @@
+m255
+K4
+z2
+!s11f vlog 2019.3 2019.07, Jul 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/program files/modeltech64_2019.3/examples
+v\1bitreg 
+!s110 1594089254
+!i10b 1
+!s100 fceZo:9BQmBZn;J>5lbe[0
+!s11b oJ2oG1`26SA[DZ1azIlf[3
+I<0n<6fzXR]D>V=_a^^CIR0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dU:/CPRE281/Labexam
+w1594087369
+8U:/CPRE281/Labexam/register.v
+FU:/CPRE281/Labexam/register.v
+!i122 -1
+Z3 L0 19
+Z4 OL;L;2019.3;69
+r1
+!s85 0
+31
+!s108 1594089254.000000
+!s107 U:/CPRE281/Labexam/register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/register.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@1341bitreg@040
+T_opt
+!s110 1594089360
+Vh<h=VZRG2@7^>@LWdcgQ_2
+04 9 4 work \1bitreg  fast 0
+=1-0050569a9501-5f03df8f-259-2c54
+Z7 o-quiet -auto_acc_if_foreign -work work
+R6
+n@_opt
+Z8 OL;O;2019.3;69
+R0
+T_opt1
+!s110 1594321762
+V[OoGZHIHQYl0cmocM1ZXR1
+04 5 4 work Final fast 0
+=1-0050569a7016-5f076b61-172-3ae0
+R7
+R6
+n@_opt1
+R8
+T_opt2
+!s110 1594321395
+VLo]d`]<AE[CP^[D0f54FI1
+04 7 4 work regfile fast 0
+=1-0050569a7016-5f0769f2-2d6-30b4
+R7
+R6
+n@_opt2
+R8
+R0
+vbusmux_0
+Z9 !s110 1594321745
+!i10b 1
+!s100 C1e[lkV;QQh2K=O0Cz<4X0
+!s11b f=iEE8e`J>CXVI_4k?B8N2
+IAVo@GFh=mTdHd8`J5lJ`Q0
+R1
+R2
+Z10 w1594279263
+Z11 8U:/CPRE281/Labexam/Final.v
+Z12 FU:/CPRE281/Labexam/Final.v
+!i122 -1
+L0 124
+R4
+r1
+!s85 0
+31
+Z13 !s108 1594321745.000000
+Z14 !s107 U:/CPRE281/Labexam/Final.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/Final.v|
+!i113 0
+R5
+R6
+vbusmux_1
+!s110 1594286505
+!i10b 1
+!s100 liZ8b_`_PLL;bJ1Dd4=Yj3
+Z16 !s11b CCEk>8HZEFT=L7@iLYLJz0
+I5F=0j1HKRed1A<acSU@nJ0
+R1
+R2
+Z17 w1594252303
+8U:/CPRE281/Labexam/busmux_1.v
+FU:/CPRE281/Labexam/busmux_1.v
+!i122 -1
+Z18 L0 20
+R4
+r1
+!s85 0
+31
+!s108 1594286505.000000
+!s107 U:/CPRE281/Labexam/busmux_1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/busmux_1.v|
+!i113 0
+R5
+R6
+vbusmux_2
+Z19 !s110 1594286506
+!i10b 1
+!s100 18=dARfi=;Nb?n<VfFiL]1
+R16
+I4_ez_XUEgF_mTIU]QX9d03
+R1
+R2
+R17
+8U:/CPRE281/Labexam/busmux_2.v
+FU:/CPRE281/Labexam/busmux_2.v
+!i122 -1
+R18
+R4
+r1
+!s85 0
+31
+Z20 !s108 1594286506.000000
+!s107 U:/CPRE281/Labexam/busmux_2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/busmux_2.v|
+!i113 0
+R5
+R6
+vbusmux_3
+R19
+!i10b 1
+!s100 Vc7FAeEc>ffB5b_N3_Da?0
+R16
+IDi4D=F`PaRSO2QZ;]]M]W2
+R1
+R2
+R17
+8U:/CPRE281/Labexam/busmux_3.v
+FU:/CPRE281/Labexam/busmux_3.v
+!i122 -1
+R18
+R4
+r1
+!s85 0
+31
+R20
+!s107 U:/CPRE281/Labexam/busmux_3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/busmux_3.v|
+!i113 0
+R5
+R6
+vDecoder3to8
+R9
+!i10b 1
+!s100 65`GCTLk?F5BoELCAkR_B1
+!s11b _OMmIBLkF<F[nW5[`Nl]c3
+IKn3E>5j:^A^`edRbP:bZe1
+R1
+R2
+w1594275707
+8U:/CPRE281/Labexam/threetoeight.v
+FU:/CPRE281/Labexam/threetoeight.v
+!i122 -1
+L0 1
+R4
+r1
+!s85 0
+31
+Z21 !s108 1594321744.000000
+!s107 U:/CPRE281/Labexam/threetoeight.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/threetoeight.v|
+!i113 0
+R5
+R6
+n@decoder3to8
+vFinal
+R9
+!i10b 1
+!s100 X<:nQQgO74dm;I2UhLz]J3
+!s11b ZLGQ:a24NiRVLUa[z<U@L2
+IBF9_Pl=d0gY]UJLN]TT^L0
+R1
+R2
+R10
+R11
+R12
+!i122 -1
+R3
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R5
+R6
+n@final
+vfourbit_fulladder
+Z22 !s110 1594286509
+!i10b 1
+!s100 <An34UNmLz?08o[GnR3?f1
+!s11b YS^>h<N4Z^SA^okHeC=0e1
+IImHX2cRzIWK?jZGZR>;`N1
+R1
+R2
+w1594248646
+8U:/CPRE281/Labexam/Fulladder.v
+FU:/CPRE281/Labexam/Fulladder.v
+!i122 -1
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1594286508.000000
+!s107 U:/CPRE281/Labexam/Fulladder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/Fulladder.v|
+!i113 0
+R5
+R6
+vFullAdder_m
+R22
+!i10b 1
+!s100 ]Z5EJjflNAU]W:3i>HSPb1
+!s11b ZHjzBF>iXBJEfIeG9oH=70
+I1`Vm1QP?4EJ1I87aWbcdz1
+R1
+R2
+w1594280138
+8U:/CPRE281/Labexam/FullAdder_m.v
+FU:/CPRE281/Labexam/FullAdder_m.v
+!i122 -1
+L0 1
+R4
+r1
+!s85 0
+31
+Z23 !s108 1594286509.000000
+!s107 U:/CPRE281/Labexam/FullAdder_m.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/FullAdder_m.v|
+!i113 0
+R5
+R6
+n@full@adder_m
+vMux8_4b
+Z24 !s110 1594321743
+!i10b 1
+!s100 L9^I@X4>IE^B[HQ=PU7jK0
+!s11b bKQJh1i;8_YMc78gKOKLX2
+IdTAiI^_:M3@2IM=@>Tb<z2
+R1
+R2
+w1594275705
+8U:/CPRE281/Labexam/Mux8_4b.v
+FU:/CPRE281/Labexam/Mux8_4b.v
+!i122 -1
+L0 1
+R4
+r1
+!s85 0
+31
+Z25 !s108 1594321743.000000
+!s107 U:/CPRE281/Labexam/Mux8_4b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/Mux8_4b.v|
+!i113 0
+R5
+R6
+n@mux8_4b
+vonebitreg
+Z26 !s110 1594321744
+!i10b 1
+!s100 KYF^=zlkMdMGZ:nIek>b22
+!s11b mA<zk?oE:f@UlOM>BCF0A0
+IjEkWVdDo2ai<L^m8:nNdj2
+R1
+R2
+w1594321103
+8U:/CPRE281/Labexam/onebitreg.v
+FU:/CPRE281/Labexam/onebitreg.v
+!i122 -1
+R3
+R4
+r1
+!s85 0
+31
+R21
+!s107 U:/CPRE281/Labexam/onebitreg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/onebitreg.v|
+!i113 0
+R5
+R6
+vParalelReg
+R26
+!i10b 1
+!s100 QIQ1Df7kJlLI3A[[P2fLW0
+!s11b kkeHib>d;Q8Ua8QTl8eTD3
+IZ=h=e@<1cZ[LNKDJJ2k0^3
+R1
+R2
+w1594321112
+8U:/CPRE281/Labexam/ParalelReg.v
+FU:/CPRE281/Labexam/ParalelReg.v
+!i122 -1
+R3
+R4
+r1
+!s85 0
+31
+R21
+!s107 U:/CPRE281/Labexam/ParalelReg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/ParalelReg.v|
+!i113 0
+R5
+R6
+n@paralel@reg
+vregfile
+R24
+!i10b 1
+!s100 EN]5oOYkT??mYl[>Ql:PK1
+!s11b LzGA?QDTk;2X7`8bn61I30
+IQXc^E2NDBHHfb>ifEc71I2
+R1
+R2
+w1594278707
+8U:/CPRE281/Labexam/mainregister.v
+FU:/CPRE281/Labexam/mainregister.v
+!i122 -1
+L0 1
+R4
+r1
+!s85 0
+31
+R25
+!s107 U:/CPRE281/Labexam/mainregister.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Labexam/mainregister.v|
+!i113 0
+R5
+R6
+vseven_seg_decoder
+!s110 1594286510
+!i10b 1
+!s100 PVLebdNEj@XdcV]g1^9eN3
+!s11b C0D@F1TlaR]o^AChzam8>2
+I`hI3=HcEYQhk1z8FEIjd?2
+R1
+R2
+w1594248292
+8U:/CPRE281/Lab06/7segdisplay.v
+FU:/CPRE281/Lab06/7segdisplay.v
+!i122 -1
+L0 1
+R4
+r1
+!s85 0
+31
+R23
+!s107 U:/CPRE281/Lab06/7segdisplay.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab06/7segdisplay.v|
+!i113 0
+R5
+R6

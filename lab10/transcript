@@ -1,0 +1,301 @@
+# Compile of Question1.v was successful.
+# Compile of question2a.v was successful.
+# Compile of question2b.v was successful.
+# Compile of question3a.v was successful.
+# Compile of question3b.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of Question1.v was successful.
+# Compile of question2a.v was successful.
+# Compile of question2b.v was successful.
+# Compile of question3a.v was successful.
+# Compile of question3b.v was successful.
+# Compile of threeatest.v was successful.
+# Compile of threebtest.v was successful.
+# Compile of 7segdisplay.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.Question1
+# vsim -gui work.Question1 
+# Start time: 16:08:16 on Jul 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.Question1(fast)
+add wave -position insertpoint  \
+sim:/Question1/Clock \
+sim:/Question1/Clear \
+sim:/Question1/in \
+sim:/Question1/OUT \
+sim:/Question1/Q0 \
+sim:/Question1/Q1 \
+sim:/Question1/Q2
+force -freeze sim:/Question1/Clock 1 0, 0 {50 ns} -r 100
+force -freeze sim:/Question1/in 1'h1 0
+run 100
+# Causality operation skipped due to absence of debug database file
+force -freeze sim:/Question1/Clock 1 0, 0 {100 ns} -r 200
+run 100
+force -freeze sim:/Question1/Clock 1 0, 0 {500 ns} -r 1000
+run 100
+force -freeze sim:/Question1/Clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+run 100
+run 100
+force -freeze sim:/Question1/in 1'h9 0
+force -freeze sim:/Question1/in 1'h0 0
+run 100
+run 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:15:40 on Jul 02,2020, Elapsed time: 0:07:24
+# Errors: 2, Warnings: 1
+vsim -gui work.question2a
+# vsim -gui work.question2a 
+# Start time: 16:15:47 on Jul 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.question2a(fast)
+add wave -position insertpoint  \
+sim:/question2a/clock \
+sim:/question2a/Clear \
+sim:/question2a/PRn \
+sim:/question2a/qa \
+sim:/question2a/qb \
+sim:/question2a/q3 \
+sim:/question2a/q4
+force -freeze sim:/question2a/clock 1 0, 0 {500 ns} -r 1000
+run 100
+force -freeze sim:/question2a/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:17:41 on Jul 02,2020, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+vsim -gui work.question2b
+# vsim -gui work.question2b 
+# Start time: 16:18:35 on Jul 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.question2b(fast)
+add wave -position insertpoint  \
+sim:/question2b/Clear \
+sim:/question2b/prn \
+sim:/question2b/clock \
+sim:/question2b/in \
+sim:/question2b/q1 \
+sim:/question2b/q2 \
+sim:/question2b/q3 \
+sim:/question2b/q4
+force -freeze sim:/question2b/clock 1 0, 0 {50 ns} -r 100
+force -freeze sim:/question2b/in 1'h1 0
+run 100
+run 100
+run 100
+run 100
+force -freeze sim:/question2b/Clear 1'h0 0
+force -freeze sim:/question2b/prn 1'h1 0
+run 100
+run 100
+force -freeze sim:/question2b/Clear 1'h1 0
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:26:57 on Jul 02,2020, Elapsed time: 0:08:22
+# Errors: 0, Warnings: 0
+vsim -gui work.threeatest
+# vsim -gui work.threeatest 
+# Start time: 16:27:10 on Jul 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.threeatest(fast)
+add wave -position insertpoint  \
+sim:/threeatest/in \
+sim:/threeatest/clock \
+sim:/threeatest/out
+force -freeze sim:/threeatest/in 1'h1 0
+force -freeze sim:/threeatest/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:28:10 on Jul 02,2020, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
+vsim -gui work.question3a
+# vsim -gui work.question3a 
+# Start time: 16:28:20 on Jul 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.question3a(fast)
+add wave -position insertpoint  \
+sim:/question3a/clock \
+sim:/question3a/in \
+sim:/question3a/q1 \
+sim:/question3a/q2 \
+sim:/question3a/q3 \
+sim:/question3a/q4
+noforce sim:/question3a/in
+force -freeze sim:/question3a/in 1'h1 0
+force -freeze sim:/question3a/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:30:51 on Jul 02,2020, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0
+# Compile of question3a.v was successful.
+vsim -gui work.question3a
+# vsim -gui work.question3a 
+# Start time: 16:31:39 on Jul 02,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.question3a(fast)
+add wave -position insertpoint  \
+sim:/question3a/clock \
+sim:/question3a/in \
+sim:/question3a/pin_name1 \
+sim:/question3a/q1 \
+sim:/question3a/q2 \
+sim:/question3a/q3 \
+sim:/question3a/q4
+force -freeze sim:/question3a/pin_name1 1'h1 0
+force -freeze sim:/question3a/in 1'h1 0
+noforce sim:/question3a/clock
+force -freeze sim:/question3a/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:32:40 on Jul 02,2020, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+vsim -gui work.question3b
+# vsim -gui work.question3b 
+# Start time: 16:32:51 on Jul 02,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.question3b(fast)
+add wave -position insertpoint  \
+sim:/question3b/clock \
+sim:/question3b/in \
+sim:/question3b/q1 \
+sim:/question3b/q2 \
+sim:/question3b/q3 \
+sim:/question3b/q4
+force -freeze sim:/question3b/in 1'h1 0
+force -freeze sim:/question3b/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+force -freeze sim:/question3b/clock 1 0, 0 {25 ns} -r 50
+run 100
+quit -sim
+# End time: 16:41:54 on Jul 02,2020, Elapsed time: 0:09:03
+# Errors: 0, Warnings: 0
+# Compile of Question1.v was successful.
+# Compile of question2a.v was successful.
+# Compile of question2b.v was successful.
+# Compile of question3a.v was successful.
+# Compile of question3b.v was successful.
+# Compile of threeatest.v was successful.
+# Compile of threebtest.v was successful.
+# Compile of 7segdisplay.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.threeatest
+# vsim -gui work.threeatest 
+# Start time: 16:50:02 on Jul 02,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.threeatest(fast)
+add wave -position insertpoint  \
+sim:/threeatest/in \
+sim:/threeatest/clock \
+sim:/threeatest/set \
+sim:/threeatest/out
+force -freeze sim:/threeatest/set 1'h0 0
+force -freeze sim:/threeatest/in 1'h1 0
+force -freeze sim:/threeatest/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+force -freeze sim:/threeatest/clock 1 0, 0 {25 ns} -r 50
+run 100
+run 100
+force -freeze sim:/threeatest/in 1'h0 0
+run 100
+run 100
+force -freeze sim:/threeatest/set 1'h1 0
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:54:29 on Jul 02,2020, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 0
+vsim -gui work.question3a
+# vsim -gui work.question3a 
+# Start time: 16:54:39 on Jul 02,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.question3a(fast)
+add wave -position insertpoint  \
+sim:/question3a/clock \
+sim:/question3a/in \
+sim:/question3a/clear \
+sim:/question3a/q1 \
+sim:/question3a/q2 \
+sim:/question3a/q3 \
+sim:/question3a/q4
+force -freeze sim:/question3a/clear 1'h0 0
+force -freeze sim:/question3a/in 1'h1 0
+force -freeze sim:/question3a/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+run 100
+run 100
+run 100
+force -freeze sim:/question3a/clear 1'h1 0
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 16:57:02 on Jul 02,2020, Elapsed time: 0:02:23
+# Errors: 1, Warnings: 0
+vsim -gui work.question3b
+# vsim -gui work.question3b 
+# Start time: 16:57:15 on Jul 02,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.question3b(fast)
+add wave -position insertpoint  \
+sim:/question3b/clock \
+sim:/question3b/in \
+sim:/question3b/clr \
+sim:/question3b/q1 \
+sim:/question3b/q2 \
+sim:/question3b/q3 \
+sim:/question3b/q4
+force -freeze sim:/question3b/in 1'h1 0
+force -freeze sim:/question3b/clr 1'h0 0
+force -freeze sim:/question3b/clock 1 0, 0 {50 ns} -r 100
+run 100
+run 100
+force -freeze sim:/question3b/clr 1'h1 0
+run 100
+run 100
+rin 100
+# can't read "var": no such variable
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100

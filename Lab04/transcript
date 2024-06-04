@@ -1,0 +1,267 @@
+# Compile of diagram.v was successful.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 15:39:56 on Jun 09,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab04(2)/diagram.v(41): Module 'Normal' is not defined.
+# ** Error: U:/CPRE281/Lab04(2)/diagram.v(48): Module 'Powersaving' is not defined.
+# ** Error: U:/CPRE281/Lab04(2)/diagram.v(55): Module 'Modes' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 15:40:02 on Jun 09,2020, Elapsed time: 0:00:06
+# Errors: 3, Warnings: 0
+# Compile of diagram.v was successful.
+# Compile of Modes.v failed with 2 errors.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of diagram.v was successful.
+# Compile of Modes.v failed with 1 errors.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of Modes.v was successful.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 15:47:06 on Jun 09,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.diagram(fast)
+add wave -position insertpoint  \
+sim:/diagram/p \
+sim:/diagram/h \
+sim:/diagram/t \
+sim:/diagram/m \
+sim:/diagram/ac
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h0 0
+force -freeze sim:/diagram/t 1'h0 0
+force -freeze sim:/diagram/m 1'h0 0
+noforce sim:/diagram/ac
+run 100
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/m 1'h0 0
+force -freeze sim:/diagram/t 1'h1 0
+run 100
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h0 0
+run 100
+force -freeze sim:/diagram/h 1'h0 0
+force -freeze sim:/diagram/p 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/m 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+run 100
+run 100
+quit -sim
+# End time: 16:03:01 on Jun 09,2020, Elapsed time: 0:15:55
+# Errors: 2, Warnings: 0
+# Load canceled
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 16:03:26 on Jun 09,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.diagram(fast)
+vsim work.farmerlab4
+# End time: 16:03:34 on Jun 09,2020, Elapsed time: 0:00:08
+# Errors: 1, Warnings: 0
+# vsim work.farmerlab4 
+# Start time: 16:03:34 on Jun 09,2020
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.farmerlab4(fast)
+vsim work.Modes
+# End time: 16:03:43 on Jun 09,2020, Elapsed time: 0:00:09
+# Errors: 1, Warnings: 0
+# vsim work.Modes 
+# Start time: 16:03:43 on Jun 09,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.Modes(fast)
+quit -sim
+# End time: 16:04:12 on Jun 09,2020, Elapsed time: 0:00:29
+# Errors: 1, Warnings: 0
+# Compile of diagram.v was successful.
+# Compile of Modes.v failed with 1 errors.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of diagram.v was successful.
+# Compile of Modes.v failed with 1 errors.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of diagram.v was successful.
+# Compile of Modes.v failed with 1 errors.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of diagram.v was successful.
+# Compile of Modes.v was successful.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 16:24:02 on Jun 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.diagram(fast)
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/diagram/*
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+quit -sim
+# End time: 16:25:48 on Jun 09,2020, Elapsed time: 0:01:46
+# Errors: 21, Warnings: 0
+# Compile of Modes.v was successful.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 16:26:07 on Jun 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.diagram(fast)
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/diagram/*
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+quit -sim
+# End time: 16:33:38 on Jun 09,2020, Elapsed time: 0:07:31
+# Errors: 23, Warnings: 0
+# Compile of diagram.v was successful.
+# Compile of Modes.v was successful.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 16:34:15 on Jun 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.diagram(fast)
+view -new wave
+# .main_pane.wave2.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/diagram/*
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+quit - sim
+# unknown switch: - sim
+quit -sim
+# End time: 16:43:37 on Jun 09,2020, Elapsed time: 0:09:22
+# Errors: 29, Warnings: 0
+# Compile of diagram.v was successful.
+# Compile of Modes.v was successful.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 16:43:54 on Jun 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.diagram(fast)
+view -new wave
+# .main_pane.wave3.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/diagram/*
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+quit -sim
+# End time: 16:46:52 on Jun 09,2020, Elapsed time: 0:02:58
+# Errors: 33, Warnings: 0
+# Compile of diagram.v was successful.
+# Compile of Modes.v was successful.
+# Compile of Normal.v was successful.
+# Compile of Powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.diagram
+# vsim work.diagram 
+# Start time: 16:47:04 on Jun 09,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.diagram(fast)
+view -new wave
+# .main_pane.wave4.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/diagram/*
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h0 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h0 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h0 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h0 0
+force -freeze sim:/diagram/t 1'h0 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h0 0
+run 100
+force -freeze sim:/diagram/p 1'h0 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h0 0
+force -freeze sim:/diagram/t 1'h1 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+force -freeze sim:/diagram/p 1'h1 0
+force -freeze sim:/diagram/h 1'h1 0
+force -freeze sim:/diagram/t 1'h0 0
+force -freeze sim:/diagram/m 1'h1 0
+run 100
+# End time: 17:26:33 on Jun 09,2020, Elapsed time: 0:39:29
+# Errors: 36, Warnings: 0

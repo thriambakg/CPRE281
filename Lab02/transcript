@@ -1,0 +1,95 @@
+# Compile of lab2step2.v was successful.
+vsim -gui work.lab2step2
+# vsim -gui work.lab2step2 
+# Start time: 16:27:35 on May 28,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab2step2(fast)
+add wave -position insertpoint  \
+sim:/lab2step2/Goat0 \
+sim:/lab2step2/Cabbage0 \
+sim:/lab2step2/Wolf0 \
+sim:/lab2step2/Cabbage1 \
+sim:/lab2step2/Wolf1 \
+sim:/lab2step2/Goat1 \
+sim:/lab2step2/Alarm
+force -freeze sim:/lab2step2/Wolf0 1'h1 0
+force -freeze sim:/lab2step2/Cabbage0 1'h1 0
+force -freeze sim:/lab2step2/Goat0 1'h0 0
+run 100
+force -freeze sim:/lab2step2/Cabbage1 1'h0 0
+force -freeze sim:/lab2step2/Wolf1 1'h0 0
+force -freeze sim:/lab2step2/Goat1 1'h0 0
+run 100
+run 100
+# Compile of lab2step2.v was successful.
+quit -sim
+# End time: 16:42:24 on May 28,2020, Elapsed time: 0:14:49
+# Errors: 1, Warnings: 0
+# Compile of lab2step2.v was successful.
+vsim -gui work.lab2step2
+# vsim -gui work.lab2step2 
+# Start time: 16:42:41 on May 28,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab2step2(fast)
+add wave -position insertpoint  \
+sim:/lab2step2/Goat0 \
+sim:/lab2step2/Cabbage0 \
+sim:/lab2step2/Wolf0 \
+sim:/lab2step2/Wolf1 \
+sim:/lab2step2/Cabbage1 \
+sim:/lab2step2/Goat1 \
+sim:/lab2step2/Alarm
+run 100
+force -freeze sim:/lab2step2/Goat0 1'h0 0
+force -freeze sim:/lab2step2/Cabbage0 1'h0 0
+force -freeze sim:/lab2step2/Wolf0 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Goat0 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Goat0 1'h0 0
+force -freeze sim:/lab2step2/Goat0 1'h0 0
+force -freeze sim:/lab2step2/Cabbage0 1'h1 0
+force -freeze sim:/lab2step2/Wolf0 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Cabbage0 1'h0 0
+run 100
+force -freeze sim:/lab2step2/Goat0 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Cabbage0 1'h1 0
+force -freeze sim:/lab2step2/Wolf0 1'h0 0
+run 100
+force -freeze sim:/lab2step2/Goat0 1'h0 0
+run 100
+force -freeze sim:/lab2step2/Cabbage0 1'h0 0
+force -freeze sim:/lab2step2/Goat0 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Goat0 1'h0 0
+force -freeze sim:/lab2step2/Wolf1 1'h1 0
+force -freeze sim:/lab2step2/Cabbage1 1'h1 0
+noforce sim:/lab2step2/Goat1
+force -freeze sim:/lab2step2/Goat1 1'h1 0
+run 100
+noforce sim:/lab2step2/Wolf0
+noforce sim:/lab2step2/Cabbage0
+noforce sim:/lab2step2/Goat0
+run 100
+force -freeze sim:/lab2step2/Cabbage1 1'h0 0
+run 100
+force -freeze sim:/lab2step2/Cabbage1 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Goat1 1'h0 0
+run 100
+force -freeze sim:/lab2step2/Wolf1 1'h0 0
+force -freeze sim:/lab2step2/Goat1 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Cabbage1 1'h0 0
+run 100
+run 100
+force -freeze sim:/lab2step2/Goat1 1'h0 0
+force -freeze sim:/lab2step2/Cabbage1 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Cabbage1 1'h0 0
+force -freeze sim:/lab2step2/Wolf1 1'h1 0
+run 100
+force -freeze sim:/lab2step2/Wolf1 1'h0 0
+run 100

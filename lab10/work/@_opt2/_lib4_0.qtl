@@ -1,0 +1,225 @@
+m255
+K4
+z2
+!s11f vlog 2019.3 2019.07, Jul 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/program files/modeltech64_2019.3/examples
+T_opt
+!s110 1593726607
+VY`c482F4icVhz>7h9PdLV0
+04 10 4 work threeatest fast 0
+=1-0050569a5c1c-5efe568e-1e0-d48
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.3;69
+R0
+T_opt1
+!s110 1593726884
+VD^3B;4IHbWEjD5^4dkO[L3
+04 10 4 work question3a fast 0
+=1-0050569a5c1c-5efe57a3-c4-3414
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1593727040
+VWfA]h5ljX^H`>hF=9n`5_2
+04 10 4 work question3b fast 0
+=1-0050569a5c1c-5efe583f-2af-3074
+R1
+R2
+n@_opt2
+R3
+vQuestion1
+!s110 1593726587
+!i10b 1
+!s100 Moc>:MSKQm7Q[VT4<RaMc1
+!s11b M@cKNa:3BeBlO[E;EzL[S3
+I[0?UQom9n=T4:aefUihX93
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dU:/CPRE281/lab10
+w1593722709
+8U:/CPRE281/lab10/Question1.v
+FU:/CPRE281/lab10/Question1.v
+!i122 -1
+Z6 L0 19
+Z7 OL;L;2019.3;69
+r1
+!s85 0
+31
+Z8 !s108 1593726587.000000
+!s107 U:/CPRE281/lab10/Question1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/Question1.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@question1
+vquestion2a
+Z10 !s110 1593726588
+!i10b 1
+!s100 T8Yk5o5HYkP?V<h9URjIc2
+!s11b BZPZZlQ8S[1n9^;J_z[Ei1
+IY8jb2ma;CkJ0Wl3>aN^6<0
+R4
+R5
+w1593721866
+8U:/CPRE281/lab10/question2a.v
+FU:/CPRE281/lab10/question2a.v
+!i122 -1
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 U:/CPRE281/lab10/question2a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/question2a.v|
+!i113 0
+R9
+R2
+vquestion2b
+R10
+!i10b 1
+!s100 7ZGWCGNj^QOD^]YLL@_;Z1
+!s11b n9FYIe[?9f`8X[TcWCDO01
+IjVoD3?F7ja?kM3bdV5YLc0
+R4
+R5
+w1593722654
+8U:/CPRE281/lab10/question2b.v
+FU:/CPRE281/lab10/question2b.v
+!i122 -1
+R6
+R7
+r1
+!s85 0
+31
+Z11 !s108 1593726588.000000
+!s107 U:/CPRE281/lab10/question2b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/question2b.v|
+!i113 0
+R9
+R2
+vquestion3a
+Z12 !s110 1593726589
+!i10b 1
+!s100 D;_;FZlLdWk4J?hP36D`40
+!s11b fInRACOmJSh>VZUY@6W;f1
+I<iYQi`<V2D65IP6_>meTK1
+R4
+R5
+w1593726345
+8U:/CPRE281/lab10/question3a.v
+FU:/CPRE281/lab10/question3a.v
+!i122 -1
+R6
+R7
+r1
+!s85 0
+31
+R11
+!s107 U:/CPRE281/lab10/question3a.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/question3a.v|
+!i113 0
+R9
+R2
+vquestion3b
+R12
+!i10b 1
+!s100 K1G3UNZYb9GnczcH::ihj1
+!s11b fmKW1kbgoebL8VdH0oGoi0
+I^MUNeYHlVS6B]iYoLo]Hg2
+R4
+R5
+w1593726313
+8U:/CPRE281/lab10/question3b.v
+FU:/CPRE281/lab10/question3b.v
+!i122 -1
+R6
+R7
+r1
+!s85 0
+31
+Z13 !s108 1593726589.000000
+!s107 U:/CPRE281/lab10/question3b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/question3b.v|
+!i113 0
+R9
+R2
+vseven_seg_decoder
+!s110 1593726591
+!i10b 1
+!s100 EelAU0>DkH51CmaGWB5aV1
+!s11b z4VA32;IKAo3zWR7]___X0
+IT;adVPDOahEbH]2`I1@hQ3
+R4
+R5
+w1592966348
+8U:/CPRE281/Lab06/7segdisplay.v
+FU:/CPRE281/Lab06/7segdisplay.v
+!i122 -1
+L0 1
+R7
+r1
+!s85 0
+31
+Z14 !s108 1593726590.000000
+!s107 U:/CPRE281/Lab06/7segdisplay.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab06/7segdisplay.v|
+!i113 0
+R9
+R2
+vthreeatest
+Z15 !s110 1593726590
+!i10b 1
+!s100 g[SjJ<`a^NO68>R39SmaZ1
+!s11b UngdNJgiEK3k@>b:6cHhD3
+IEfM;01VK73@_17:ic0N7W1
+R4
+R5
+w1593726534
+8U:/CPRE281/lab10/threeatest.v
+FU:/CPRE281/lab10/threeatest.v
+!i122 -1
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 U:/CPRE281/lab10/threeatest.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/threeatest.v|
+!i113 0
+R9
+R2
+vthreebtest
+R15
+!i10b 1
+!s100 VXMigLIonGibjUgCXUh:;2
+!s11b a[Ne;RBF]adjMXlC8@k]Y2
+IKcM<WiSc1cTbYO6U1cM470
+R4
+R5
+w1593726577
+8U:/CPRE281/lab10/threebtest.v
+FU:/CPRE281/lab10/threebtest.v
+!i122 -1
+R6
+R7
+r1
+!s85 0
+31
+R14
+!s107 U:/CPRE281/lab10/threebtest.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/lab10/threebtest.v|
+!i113 0
+R9
+R2

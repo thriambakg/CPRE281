@@ -1,0 +1,29 @@
+U:/CPRE281/lab10/question2a.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab10/question2a.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module question2a
+
+Top level modules:
+	question2a
+
+} {} {}} U:/CPRE281/lab10/question2b.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab10/question2b.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module question2b
+
+Top level modules:
+	question2b
+
+} {} {}} U:/CPRE281/Lab06/7segdisplay.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab06/7segdisplay.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} U:/CPRE281/lab10/Question1.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab10/Question1.v
+Model Technology ModelSim SE-64 vlog 2019.3 Compiler 2019.07 Jul 24 2019
+-- Compiling module Question1
+
+Top level modules:
+	Question1
+
+} {} {}}

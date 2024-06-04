@@ -1,0 +1,234 @@
+# Compile of lab3step1.v failed with 6 errors.
+# Compile of lab3step1.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 16:06:57 on Jun 04,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h0 0
+run 100
+quit -sim
+# End time: 16:14:58 on Jun 04,2020, Elapsed time: 0:08:01
+# Errors: 0, Warnings: 0
+# Compile of lab3step1.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 16:18:12 on Jun 04,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+quit - sim
+# unknown switch: - sim
+quit -sim
+# End time: 16:29:34 on Jun 04,2020, Elapsed time: 0:11:22
+# Errors: 14, Warnings: 0
+# Compile of lab3step1.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 16:50:50 on Jun 04,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+force -freeze sim:/farmer_problem/a 1'hz 0
+run 100
+quit -sim
+# End time: 16:55:07 on Jun 04,2020, Elapsed time: 0:04:17
+# Errors: 12, Warnings: 0
+# Compile of lab3step1.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 16:59:10 on Jun 04,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+force -drive sim:/farmer_problem/a 1'hz 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h0 0
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h0 0
+force -freeze sim:/farmer_problem/a 1'hz 0
+run 100
+noforce sim:/farmer_problem/c
+noforce sim:/farmer_problem/w
+noforce sim:/farmer_problem/g
+noforce sim:/farmer_problem/a
+run 100
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+noforce sim:/farmer_problem/c
+noforce sim:/farmer_problem/w
+noforce sim:/farmer_problem/g
+noforce sim:/farmer_problem/a
+run 100
+noforce sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+quit -sim
+# End time: 17:07:11 on Jun 04,2020, Elapsed time: 0:08:01
+# Errors: 16, Warnings: 0
+# Compile of lab3step1.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 17:07:41 on Jun 04,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+noforce sim:/farmer_problem/a
+run 100
+force -freeze sim:/farmer_problem/c 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/g 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h1 0
+noforce sim:/farmer_problem/w
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+quit - sim
+# unknown switch: - sim
+quit -sim
+# End time: 17:29:02 on Jun 04,2020, Elapsed time: 0:21:21
+# Errors: 17, Warnings: 0
+# Compile of lab3step2.v failed with 1 errors.
+# Compile of lab3step2.v failed with 1 errors.
+# Compile of lab3step2.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 17:32:01 on Jun 04,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h0 0
+force -freeze sim:/farmer_problem/c 1'h0 0
+force -freeze sim:/farmer_problem/w 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/g 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+quit -sim
+# End time: 17:42:37 on Jun 04,2020, Elapsed time: 0:10:36
+# Errors: 29, Warnings: 0
+# Compile of lab3step3.v was successful with warnings.
+vsim -gui work.farmer_problem
+# vsim -gui work.farmer_problem 
+# Start time: 17:43:00 on Jun 04,2020
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.farmer_problem(fast)
+add wave -position insertpoint  \
+sim:/farmer_problem/c \
+sim:/farmer_problem/w \
+sim:/farmer_problem/g \
+sim:/farmer_problem/f \
+sim:/farmer_problem/a
+force -freeze sim:/farmer_problem/c 1'h1 0
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+force -freeze sim:/farmer_problem/f 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+force -freeze sim:/farmer_problem/g 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/c 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/g 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h1 0
+run 100
+force -freeze sim:/farmer_problem/w 1'h1 0
+force -freeze sim:/farmer_problem/c 1'h0 0
+force -freeze sim:/farmer_problem/g 1'h0 0
+run 100
+force -freeze sim:/farmer_problem/f 1'h0 0
+run 100
+# End time: 17:58:43 on Jun 04,2020, Elapsed time: 0:15:43
+# Errors: 27, Warnings: 0
